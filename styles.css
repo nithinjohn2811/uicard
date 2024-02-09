@@ -59,4 +59,45 @@ body {
   font-weight: 400;
 }
 
+.profile-card .media-buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.media-buttons .link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:34px;
+  width:34px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 8px;
+  text-decoration: none;
+  background-color:blanchedalmond;
+}
+
+.profile-card .buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.buttons .button{
+  border: none;
+  border-radius: 24px;
+  margin: 0 10px;
+  padding:8px 24px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor:pointer;
+  transition: all .3s ease;
+}
+
+.buttons .button hover {
+  
+
+}
 
